@@ -6,8 +6,7 @@
   "scripts": {
     "start:app": "nodemon src/index.js",
     "start:database": "docker-compose up -d",
-    "generate-key":  "node -e \"console.log(require('crypto').randomBytes(32).toString('hex'))\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate-key":  "node -e \"console.log(require('crypto').randomBytes(32).toString('hex'))\""
   },
   "keywords": [],
   "author": "",
